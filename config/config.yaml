@@ -1,0 +1,13 @@
+data:
+  sample_rate: 360
+  lead: "MLII"
+signal:
+  bandpass: [0.5, 45]
+  notch_freq: 50
+  filter_order: 4
+detection:
+  r_peak_method: "hamilton"
+  min_rr_interval: 0.3
+analysis:
+  hrv_window: 300
+  arrhythmia_threshold: 0.2
